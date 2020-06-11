@@ -1,7 +1,7 @@
     module MultS4Bits(
         input [3:0] x,
         input [3:0] y,
-        output [7:0] prod,
+        output [7:0] prod
     );
 
         wire [3:0] signx;
